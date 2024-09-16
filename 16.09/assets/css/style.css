@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 208px 400px;
+  background: url(/assets/img/duotone.png) no-repeat center center cover;
+}
+.intro__title {
+  color: #FFF;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+
+.dog__wrap {
+  position: relative;
+  padding: 100px 87px 0 87px;
+}
